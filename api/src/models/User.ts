@@ -17,7 +17,7 @@ export class User extends Model {
   @Column
   passwordHash!: string
 
-  @Column({ defaultValue: 'aluno' })
+  @Column({ defaultValue: 'admin' })
   role!: UserRole
 
   @HasMany(() => Reservation)
