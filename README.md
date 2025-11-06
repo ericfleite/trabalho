@@ -165,21 +165,3 @@ O projeto possui pipeline configurado para **publicação automática**:
 * **Containers:** Docker usado para padronização do ambiente.
 * **Publicação (CD):** GitHub Actions configurado para deploy automático.
 * **Documentação:** README e Swagger completos e claros.
-
----
-
-## 📆 Observações
-
-Durante a apresentação, será possível:
-
-* Demonstrar o site consumindo a API.
-* Testar a API no Swagger, incluindo cadastro em tempo real que reflete no site imediatamente.
-
-```
-
----
-
-Se você quiser, posso criar **uma versão ainda mais “profissional”**, com badges de build, Docker, e links diretos para CI/CD, Swagger e frontend, pronta para colocar no GitHub. Isso deixaria o README muito mais visual e impactante para apresentação.  
-
-Quer que eu faça essa versão?
-
