@@ -36,7 +36,7 @@ O sistema implementa as seguintes funcionalidades:
 - **Autenticação:** JWT (JSON Web Token)  
 - **Documentação:** Swagger  
 - **Banco de Dados:** PostgreSQL  
-- **Frontend:** HTML, CSS, JavaScript (ou framework utilizado)  
+- **Frontend:** HTML, CSS, JavaScript (Bootstrap)
 - **DevOps:** Docker, GitHub Actions (CI/CD)
 
 
@@ -105,7 +105,7 @@ npm run dev
   |─ labs.html
   └─ registration.html
 
-/backend
+/api
   ├─ src
   │  ├─ controllers
   │  ├─ models
@@ -132,7 +132,7 @@ Todas as rotas da API exigem autenticação via **JWT**.
 Authorization: Bearer SEU_TOKEN_AQUI
 ```
 
-* O token é gerado ao realizar login no endpoint `/auth/login`.
+* O token é gerado ao realizar login no endpoint `api/auth/login`.
 
 ---
 
