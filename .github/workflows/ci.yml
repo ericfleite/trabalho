@@ -39,4 +39,4 @@ jobs:
       - name: Build Docker images
         run: |
           docker build -t ci-api-test ./api
-          docker build -t ci-site-test ./site
+          
