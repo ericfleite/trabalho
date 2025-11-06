@@ -26,7 +26,8 @@ jobs:
           password: ${{ env.DOCKERHUB_TOKEN }}
 
       - name: Build Docker image única (API + Site)
-        run: docker build -f ./api/Dockerfile -t ${{ env.DOCKERHUB_USERNAME }}/meu-projeto:latest .
+        run: docker build -t ${{ env.DOCKERHUB_USERNAME }}/meu-projeto:latest ./api
+
 
 
       - name: Push Docker image
