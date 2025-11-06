@@ -39,13 +39,6 @@ O sistema implementa as seguintes funcionalidades:
 - **Frontend:** HTML, CSS, JavaScript (ou framework utilizado)  
 - **DevOps:** Docker, GitHub Actions (CI/CD)
 
----
-
-## 🌐 URLs de Acesso
-
-- **Site:** [https://seusite.com](https://seusite.com)  
-- **API:** [https://suaapi.com](https://suaapi.com)  
-- **Swagger (Documentação):** [https://suaapi.com/docs](https://suaapi.com/docs)
 
 ---
 
